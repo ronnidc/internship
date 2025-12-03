@@ -52,7 +52,7 @@
 
         a {
             color: #1a1a1a;
-            text-decoration: none;
+            text-decoration: underline;
             font-weight: 600;
             font-size: 1.1rem;
             display: inline-block;
@@ -66,6 +66,36 @@
 
         li:hover a:hover {
             text-decoration: underline;
+        }
+
+        .resource-link {
+            margin-top: 5rem;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-inline: 4px solid #1a1a1a;
+            text-align: center;
+        }
+
+        .resource-link p {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #666;
+        }
+
+        .resource-link a {
+            color: #1a1a1a;
+            text-decoration: underline;
+            font-size: 1.1rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .resource-link a:hover {
+            background-color: #e8e8e8;
         }
 
         @media (max-width: 768px) {
@@ -97,6 +127,11 @@
         <li><a href="torsdag.html">Torsdag: Collections, JavaScript og go live</a> - Otto lærer Eleventy collections med mappestruktur så blogindlæg automatisk listes efter kategori, skriver i Markdown, tilføjer JavaScript med en burgermenu, og får siden live på Vercel. Til sidst lidt tid til finpudsning af CSS.</li>
         <li><a href="fredag.html">Fredag: Afslutning</a> - Finpudsning og afslutning af praktikugen.</li>
     </ul>
+
+    <div class="resource-link">
+        <p>Nyttige ressourcer:</p>
+        <a href="https://ronnidc.github.io/css-cheat-sheet/" target="_blank" rel="noopener">CSS Cheat Sheet →</a>
+    </div>
 </body>
 
 </html>
