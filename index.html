@@ -69,11 +69,13 @@
         }
 
         .resource-link {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
             margin-top: 2rem;
             padding: 1.5rem;
             background-color: #ffffff;
             border-block: 4px solid #1a1a1a;
-            text-align: center;
         }
 
         .resource-link p {
@@ -89,13 +91,11 @@
             color: #1a1a1a;
             text-decoration: underline;
             font-size: 1.1rem;
-            padding: 0.3rem 0.75rem;
-            border-radius: 5px;
             transition: all 0.3s ease;
         }
 
         .resource-link a:hover {
-            background-color: #e8e8e8;
+            text-decoration: none;
         }
 
         @media (max-width: 768px) {
@@ -132,6 +132,9 @@
     <div class="resource-link">
         <p>Nyttige ressourcer:</p>
         <a href="https://ronnidc.github.io/css-cheat-sheet/" target="_blank" rel="noopener">CSS Cheat Sheet →</a>
+        <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank" rel="noopener">Markdown Cheat Sheet →</a>
+        <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy / 11ty →</a>
+        <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">W3 Schools HTML (+ js, css, etc.) →</a>
     </div>
 </body>
 
